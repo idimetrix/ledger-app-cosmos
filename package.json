@@ -65,7 +65,6 @@
     "@ledgerhq/hw-app-btc": "9.1.0",
     "@ledgerhq/hw-app-eth": "6.30.2",
     "@ledgerhq/hw-transport-u2f": "5.30.0",
-    "@ledgerhq/hw-transport-web-ble": "6.27.8",
     "@ledgerhq/hw-transport-webhid": "6.27.8",
     "@ledgerhq/hw-transport-webusb": "6.27.8",
     "@types/w3c-web-usb": "1.0.6",

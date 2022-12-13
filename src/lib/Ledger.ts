@@ -2,7 +2,6 @@ import events from 'events';
 
 import Transport from '@ledgerhq/hw-transport';
 import TransportU2F from '@ledgerhq/hw-transport-u2f';
-import TransportWebBle from '@ledgerhq/hw-transport-web-ble';
 import TransportWebHID from '@ledgerhq/hw-transport-webhid';
 import TransportWebUSB from '@ledgerhq/hw-transport-webusb';
 
@@ -63,7 +62,6 @@ export type LedgerOptions = {
   useU2f?: boolean;
   useWebUSB?: boolean;
   useWebHID?: boolean;
-  useWebBle?: boolean;
 };
 
 /**
@@ -96,7 +94,6 @@ export class Ledger extends events.EventEmitter {
   private default: LedgerOptions = {
     useU2f: false,
     useWebHID: false,
-    useWebBle: false,
     useWebUSB: true,
   };
 
@@ -187,30 +184,6 @@ export class Ledger extends events.EventEmitter {
       return transport;
     } catch (error) {
       log.error('webHID', { error });
-    }
-
-    return null;
-  }
-
-  async webBle(request: boolean = false): Promise<Transport | null> {
-    if (!this.options.useWebBle || !(await TransportWebBle.isSupported())) {
-      log.log('webBle not supported');
-
-      return null;
-    }
-
-    try {
-      const devices: BluetoothDevice[] = await this.getBluetoothDevices();
-
-      const transport: Transport = devices.length
-        ? await TransportWebBle.open(request ? devices[0] : devices[0])
-        : null;
-
-      log.log('webBle', { transport });
-
-      return transport;
-    } catch (error) {
-      log.error('webBle', { error });
     }
 
     return null;
@@ -386,50 +359,11 @@ export class Ledger extends events.EventEmitter {
 
   // --- PRIVATE ---------------------------------------------------------------
 
-  private async getBluetoothDevices(): Promise<BluetoothDevice[]> {
-    try {
-      const devices: BluetoothDevice[] = await navigator.bluetooth.getDevices();
-
-      log.log('getBluetoothDevices', { devices });
-
-      const keys: string[] = ['ledger', 'hw-transport', 'hq', 'transport'];
-
-      let filtered: BluetoothDevice[] = [];
-
-      for (const key of keys) {
-        filtered = devices.filter((device: BluetoothDevice): boolean => {
-          const { id = '', name = '' }: BluetoothDevice = device;
-
-          const values: string[] = [id || '', name || ''].map(
-            (value: string): string => String(value).toLowerCase()
-          );
-
-          return values.some(
-            (value: string): boolean => value.indexOf(key) !== -1
-          );
-        });
-
-        if (filtered.length) break;
-      }
-
-      log.log('getBluetoothDevices', { filtered });
-
-      return filtered.length ? filtered : devices;
-    } catch (error) {
-      log.error('getBluetoothDevices', { error });
-    }
-
-    return [];
-  }
-
   async transporter(request: boolean = false): Promise<Transport | null> {
     let transport: Transport | null = null;
 
     transport =
       transport || (this.options.useWebUSB ? await this.webUSB(request) : null);
-
-    transport =
-      transport || (this.options.useWebBle ? await this.webBle(request) : null);
 
     transport =
       transport || (this.options.useWebHID ? await this.webHID(request) : null);
