@@ -1,0 +1,3 @@
+{
+	"reject": ["vue-svgicon", "webpack", "sass-loader", "vue-i18n", "@jest/globals", "babel-jest", "jest", "ts-jest", "vue-jest", "local-web-server", "sass"]
+}
