@@ -67,7 +67,7 @@ $ npm install --save ledger-app-cosmos
 Install with [yarn](https://yarnpkg.com):
 
 ```sh
-$ yarn add ledger-app-cosmos
+$ npm run add ledger-app-cosmos
 ```
 
 ## [Demo](https://ledger-app-cosmos.netlify.app/)
@@ -142,7 +142,7 @@ $ yarn add ledger-app-cosmos
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:71](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L71)
+[src/lib/cosmos/index.ts:71](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L71)
 
 ### Properties
 
@@ -162,7 +162,7 @@ $ yarn add ledger-app-cosmos
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:94](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L94)
+[src/lib/cosmos/index.ts:94](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L94)
 
 • `set` **transport**(`transport`): `void`
 
@@ -178,7 +178,7 @@ $ yarn add ledger-app-cosmos
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:98](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L98)
+[src/lib/cosmos/index.ts:98](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L98)
 
 ### Methods
 
@@ -198,7 +198,7 @@ $ yarn add ledger-app-cosmos
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:82](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L82)
+[src/lib/cosmos/index.ts:82](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L82)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:367](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L367)
+[src/lib/cosmos/index.ts:367](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L367)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:190](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L190)
+[src/lib/cosmos/index.ts:190](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L190)
 
 ___
 
@@ -256,7 +256,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:143](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L143)
+[src/lib/cosmos/index.ts:143](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L143)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:257](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L257)
+[src/lib/cosmos/index.ts:257](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L257)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:339](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L339)
+[src/lib/cosmos/index.ts:339](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L339)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:174](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L174)
+[src/lib/cosmos/index.ts:174](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L174)
 
 ___
 
@@ -330,7 +330,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:128](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L128)
+[src/lib/cosmos/index.ts:128](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L128)
 
 ___
 
@@ -350,7 +350,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:157](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L157)
+[src/lib/cosmos/index.ts:157](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L157)
 
 ___
 
@@ -373,7 +373,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:405](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L405)
+[src/lib/cosmos/index.ts:405](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L405)
 
 ___
 
@@ -395,7 +395,7 @@ ___
 
 ##### Defined in
 
-[src/lib/cosmos/index.ts:414](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/index.ts#L414)
+[src/lib/cosmos/index.ts:414](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/index.ts#L414)
 
 
 <a name="classesledgermd"></a>
@@ -503,7 +503,7 @@ events.EventEmitter.constructor
 
 ##### Defined in
 
-[src/lib/Ledger.ts:123](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L123)
+[src/lib/Ledger.ts:123](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L123)
 
 ### Properties
 
@@ -513,7 +513,7 @@ events.EventEmitter.constructor
 
 ##### Defined in
 
-[src/lib/Ledger.ts:91](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L91)
+[src/lib/Ledger.ts:91](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L91)
 
 ___
 
@@ -523,7 +523,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:90](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L90)
+[src/lib/Ledger.ts:90](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L90)
 
 ___
 
@@ -533,7 +533,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:93](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L93)
+[src/lib/Ledger.ts:93](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L93)
 
 ___
 
@@ -543,7 +543,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:94](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L94)
+[src/lib/Ledger.ts:94](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L94)
 
 ___
 
@@ -553,7 +553,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:83](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L83)
+[src/lib/Ledger.ts:83](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L83)
 
 ___
 
@@ -633,7 +633,7 @@ node_modules/@types/node/events.d.ts:272
 
 ##### Defined in
 
-[src/lib/Ledger.ts:225](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L225)
+[src/lib/Ledger.ts:225](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L225)
 
 ___
 
@@ -647,7 +647,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:232](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L232)
+[src/lib/Ledger.ts:232](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L232)
 
 ___
 
@@ -661,7 +661,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:236](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L236)
+[src/lib/Ledger.ts:236](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L236)
 
 ___
 
@@ -675,7 +675,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:221](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L221)
+[src/lib/Ledger.ts:221](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L221)
 
 ___
 
@@ -689,7 +689,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:117](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L117)
+[src/lib/Ledger.ts:117](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L117)
 
 ### Methods
 
@@ -740,7 +740,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:240](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L240)
+[src/lib/Ledger.ts:240](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L240)
 
 ___
 
@@ -760,7 +760,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:105](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L105)
+[src/lib/Ledger.ts:105](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L105)
 
 ___
 
@@ -781,7 +781,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:274](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L274)
+[src/lib/Ledger.ts:274](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L274)
 
 ___
 
@@ -905,7 +905,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:355](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L355)
+[src/lib/Ledger.ts:355](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L355)
 
 ___
 
@@ -919,7 +919,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:337](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L337)
+[src/lib/Ledger.ts:337](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L337)
 
 ___
 
@@ -940,7 +940,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:319](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L319)
+[src/lib/Ledger.ts:319](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L319)
 
 ___
 
@@ -954,7 +954,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:343](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L343)
+[src/lib/Ledger.ts:343](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L343)
 
 ___
 
@@ -997,7 +997,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:349](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L349)
+[src/lib/Ledger.ts:349](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L349)
 
 ___
 
@@ -1011,7 +1011,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:331](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L331)
+[src/lib/Ledger.ts:331](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L331)
 
 ___
 
@@ -1359,7 +1359,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:270](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L270)
+[src/lib/Ledger.ts:270](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L270)
 
 ___
 
@@ -1517,7 +1517,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:315](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L315)
+[src/lib/Ledger.ts:315](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L315)
 
 ___
 
@@ -1537,7 +1537,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:323](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L323)
+[src/lib/Ledger.ts:323](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L323)
 
 ___
 
@@ -1593,7 +1593,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:366](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L366)
+[src/lib/Ledger.ts:366](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L366)
 
 ___
 
@@ -1615,7 +1615,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:377](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L377)
+[src/lib/Ledger.ts:377](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L377)
 
 ___
 
@@ -1635,7 +1635,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:427](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L427)
+[src/lib/Ledger.ts:427](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L427)
 
 ___
 
@@ -1649,7 +1649,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:131](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L131)
+[src/lib/Ledger.ts:131](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L131)
 
 ___
 
@@ -1669,7 +1669,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:195](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L195)
+[src/lib/Ledger.ts:195](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L195)
 
 ___
 
@@ -1689,7 +1689,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:173](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L173)
+[src/lib/Ledger.ts:173](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L173)
 
 ___
 
@@ -1709,7 +1709,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:151](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L151)
+[src/lib/Ledger.ts:151](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L151)
 
 ___
 
@@ -2041,7 +2041,7 @@ node_modules/@types/node/events.d.ts:158
 
 ##### Defined in
 
-[src/lib/Ledger.ts:30](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L30)
+[src/lib/Ledger.ts:30](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L30)
 
 ___
 
@@ -2051,7 +2051,7 @@ ___
 
 ##### Defined in
 
-[src/lib/Ledger.ts:31](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L31)
+[src/lib/Ledger.ts:31](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L31)
 
 
 <a name="modulesmd"></a>
@@ -2096,7 +2096,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:12](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L12)
+[src/lib/cosmos/types/index.ts:12](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L12)
 
 ___
 
@@ -2106,7 +2106,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:33](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L33)
+[src/lib/cosmos/types/index.ts:33](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L33)
 
 ___
 
@@ -2136,7 +2136,7 @@ ___
 
 #### Defined in
 
-[src/lib/Ledger.ts:44](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L44)
+[src/lib/Ledger.ts:44](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L44)
 
 ___
 
@@ -2146,7 +2146,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:45](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L45)
+[src/lib/cosmos/types/index.ts:45](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L45)
 
 ___
 
@@ -2163,7 +2163,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:1](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L1)
+[src/lib/cosmos/types/index.ts:1](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L1)
 
 ___
 
@@ -2182,7 +2182,7 @@ ___
 
 #### Defined in
 
-[src/lib/Ledger.ts:62](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L62)
+[src/lib/Ledger.ts:62](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L62)
 
 ___
 
@@ -2204,7 +2204,7 @@ ___
 
 #### Defined in
 
-[src/lib/Ledger.ts:34](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L34)
+[src/lib/Ledger.ts:34](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L34)
 
 ___
 
@@ -2214,7 +2214,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:6](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L6)
+[src/lib/cosmos/types/index.ts:6](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L6)
 
 ___
 
@@ -2224,7 +2224,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:18](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L18)
+[src/lib/cosmos/types/index.ts:18](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L18)
 
 ___
 
@@ -2234,7 +2234,7 @@ ___
 
 #### Defined in
 
-[src/lib/cosmos/types/index.ts:23](https://github.com/dfinance/ledger/blob/b96f748/src/lib/cosmos/types/index.ts#L23)
+[src/lib/cosmos/types/index.ts:23](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/cosmos/types/index.ts#L23)
 
 ## Variables
 
@@ -2244,4 +2244,4 @@ ___
 
 #### Defined in
 
-[src/lib/Ledger.ts:445](https://github.com/dfinance/ledger/blob/b96f748/src/lib/Ledger.ts#L445)
+[src/lib/Ledger.ts:445](https://github.com/idimetrix/ledger-app-cosmos/blob/b96f748/src/lib/Ledger.ts#L445)

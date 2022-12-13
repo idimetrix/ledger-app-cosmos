@@ -398,13 +398,11 @@ export class Ledger extends events.EventEmitter {
 
       for (const key of keys) {
         filtered = devices.filter((device: BluetoothDevice): boolean => {
-          const { id = '', name = '', uuids = [] }: BluetoothDevice = device;
+          const { id = '', name = '' }: BluetoothDevice = device;
 
-          const values: string[] = [
-            id || '',
-            name || '',
-            ...(uuids || []).map((uuid: string): string => uuid || ''),
-          ].map((value: string): string => String(value).toLowerCase());
+          const values: string[] = [id || '', name || ''].map(
+            (value: string): string => String(value).toLowerCase()
+          );
 
           return values.some(
             (value: string): boolean => value.indexOf(key) !== -1

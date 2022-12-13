@@ -546,7 +546,7 @@ export class Cosmos {
 
     const chunks: Buffer[] = [serializedPath];
 
-    const buffer: Buffer = Buffer.from(data);
+    const buffer: Buffer = Buffer.from(data as any);
 
     // const buffer: Buffer = crypto.createHash('sha256').update(data as Uint8Array).digest()
 
